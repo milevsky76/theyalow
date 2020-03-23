@@ -202,7 +202,7 @@ body {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  width: 640px;
+  min-width: 640px;
   font-size: 17px;
   font-weight: 400;
   color: #000000;
@@ -213,6 +213,5 @@ body {
 .container {
   max-width: 1020px;
   margin: 0 auto;
-  padding: 0 10px;
 }
 /*# sourceMappingURL=style.css.map */
