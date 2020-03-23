@@ -214,4 +214,137 @@ body {
   max-width: 1020px;
   margin: 0 auto;
 }
+
+.main-header {
+  background-color: #F5C506;
+}
+
+.main-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 62px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  min-width: 186px;
+  width: 25%;
+  background-color: #4C4C4C;
+  color: #ffffff;
+  text-shadow: 2px 2px 0px #000000;
+}
+
+.logo__svg-block {
+  position: relative;
+  width: 39.6px;
+  height: 39px;
+  margin-right: 5px;
+}
+
+.logo__svg {
+  position: absolute;
+}
+
+.logo__svg_rot {
+  opacity: 0.5;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+.logo__title {
+  margin: 0;
+  padding: 0;
+  font-size: 19px;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.logo__subtitle {
+  display: none;
+}
+
+.site-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-navigation__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.site-navigation__item:not(:last-child) {
+  border-right: 1px solid #DCB105;
+}
+
+.site-navigation__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: #F5C506;
+  color: #9b7d08;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+.site-navigation__link:hover, .site-navigation__link:focus {
+  -webkit-box-shadow: inset 0px 0px 3px 0px #000000;
+          box-shadow: inset 0px 0px 3px 0px #000000;
+}
+
+.site-navigation__svg {
+  margin-right: 10px;
+}
+
+.video {
+  cursor: pointer;
+}
+
+.video__img {
+  display: block;
+  width: 100%;
+}
+
+.video__title {
+  display: none;
+}
+
+.slider__button {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
