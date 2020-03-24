@@ -551,4 +551,19 @@ body {
   text-transform: uppercase;
   font-weight: 300;
 }
+
+@media screen and (min-width: 1020px) {
+  .customise__wrap {
+    padding: 0;
+  }
+  .customise__item {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    border-left: 1px solid rgba(0, 0, 0, 0.14);
+  }
+  .customise__item:last-child {
+    border-right: 1px solid rgba(0, 0, 0, 0.14);
+  }
+}
 /*# sourceMappingURL=style.css.map */
