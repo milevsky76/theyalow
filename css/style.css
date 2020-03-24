@@ -224,6 +224,9 @@ body {
   display: -ms-flexbox;
   display: flex;
   height: 62px;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
 }
 
 .logo {
@@ -416,6 +419,8 @@ body {
             justify-content: space-between;
     height: 84px;
     margin-bottom: 56px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   .logo {
     -webkit-box-pack: stretch;
