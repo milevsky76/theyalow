@@ -1,0 +1,92 @@
+@media screen and ( min-width: 1020px )
+    .postblock
+        min-height: 453px
+        padding-top: 35px   
+        padding-bottom: 20px
+        background-color: #F6CC25
+        background-image: url(../img/pattern-tile.png)
+        &__title
+            display: block
+            margin: 0
+            margin-bottom: 35px
+            padding: 0
+            font-size: 37px
+            font-weight: 400
+            color: #ffffff
+            text-transform: uppercase
+        &__content
+            display: flex
+            justify-content: space-between
+            flex-wrap: wrap
+
+    .stories
+        flex-wrap: wrap
+        width: 655px
+        margin-bottom: 45px
+        padding: 0px
+        background-color: transparent
+        &__text-wrap
+            width: 340px
+            min-height: 232px
+            margin-right: 0px
+            padding: 20px 30px
+
+    .time-stories
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        width: 113px
+        padding-top: 5px
+        padding-bottom: 10px
+        text-align: justify
+        background-color: #DDB101
+        &__day
+            font-size: 51px
+            font-weight: 700
+            color: #ffffff   
+        &__month
+            font-size: 21px
+            color: #b26529
+
+    .tweet
+        position: relative
+        width: 329px
+        height: 232px
+        &::before, &::after
+            position: absolute
+            bottom: 20px
+            right: 20px
+            content: ''
+            width: 2px
+            height: 10px
+            background-color: #ffffff
+        &::after
+            transform: rotateZ(90deg)
+        &__colum-left
+            width: 100%
+            background-color: #EC9E03
+        &__quantity
+            position: absolute
+            top: 20px
+            right: 20px
+            display: block
+            font-size: 25px
+            font-weight: 300
+            color: #ffffff
+        &__colum-right
+            display: none
+
+    .scroll-bar
+        display: block
+        width: 896px
+        height: 15px
+        margin: auto
+        background-color: rgba(#ffffff, 0.48)
+        border-radius: 7px
+        &__toddler
+            width: 197px
+            height: 15px
+            margin-left: 247px
+            background-color: #EC9E03
+            border-radius: 7px
