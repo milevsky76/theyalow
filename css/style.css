@@ -1071,4 +1071,33 @@ body {
 .logo__title_footer {
   font-size: 17px;
 }
+
+@media screen and (min-width: 1020px) {
+  .main-footer {
+    min-height: 54px;
+  }
+  .main-footer__wrap {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main-footer__designed {
+    display: block;
+    font-size: 17px;
+    color: #ffffff;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-top: 12.5px;
+  }
+  .logo_footer {
+    margin: 0;
+  }
+  .logo__svg-block_footer {
+    width: 54px;
+    height: 54px;
+  }
+  .logo__title_footer {
+    font-size: 29px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
